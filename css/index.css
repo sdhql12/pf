@@ -187,6 +187,9 @@ section .title h2 {
     clear: both;
 }
 
+.right * {
+    color: w;
+}
 .about-self .left {
     width: 50%;
     float: left;
@@ -224,7 +227,7 @@ section .title h2 {
 /* bg */
 
 .bg {
-    background: url('../images/pngtree-abstract-coding-network-image_2630043\ \(1\).jpg') no-repeat center/cover fixed;
+    background: url('../images/8.webp') no-repeat center/cover fixed;
     height: 600px;
 }
 
@@ -324,103 +327,11 @@ section .title h2 {
 }
 
 
-/* 기본 스타일 */
-/* .gallery {
-    background-color: rgb(87, 85, 85);
-    background: url('../images/laptop-2620118_640.jpg') center/cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
+
+
+.features {
+    background-color: #000000;
 }
-
-.gallery-header {
-    width: 20%;
-    height: 100%;
-    color: #fff;
-}
-
-.gallery-collection {
-    display: flex;
-   
-}
-
-.gallery-collection li {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-}
-
-.gallery-collection li:hover {
-    flex: 1.5;
-}
-
-.gallery-collection li .txt h3 {
-    font-size: 2rem;
-    transition: all 0.5s ease;
-    color: #fff;
-}
-
-.gallery-collection li:hover .txt h3 {
-    font-size: 4rem;
-}
-
-.gallery-collection li .inner figure video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.gallery .popup {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20vh 7vw 14vh 20vw;
-    display: flex;
-    opacity: 0;
-    transition: all 0.5s;
-    z-index: 9;
-}
-
-.gallery .popup.on {
-    left: 0;
-    opacity: 1;
-}
-
-.gallery .popup .txt h2 {
-    font-size: 5rem;
-    color: #fff;
-}
-
-.gallery .popup .txt p {
-    color: #999;
-    margin-bottom: 60px;
-    font-size: 1.5rem;
-}
-
-.gallery .popup .txt button {
-    color: yellow;
-    background-color: transparent;
-    font-size: 2rem;
-    border: none;
-}
-
-.gallery .popup figure video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
- */
-
-
-/*모션 그래픽*/
-
-
 
 
 /* swiper */
@@ -563,5 +474,14 @@ section .title h2 {
     color: #fff;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.contact-me * {
+    color: white;
+}
+
+
+.title h2 {
+    color: white;
 }
 
